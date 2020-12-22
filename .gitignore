@@ -1,0 +1,9 @@
+
+.vs/AimGods/v16/.suo
+*.db
+*.db-wal
+*.db-shm
+*.opendb
+*.ipch
+*.obj
+*.pdb

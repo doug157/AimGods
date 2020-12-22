@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{e3a3010d-6d92-4a99-92d6-1290c9e1f0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours">
+      <UniqueIdentifier>{d7dc71b5-9ab2-47f1-ad04-db702f931084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\BasicHelper.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\CoreUObject_classes.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\CoreUObject_parameters.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\CoreUObject_structs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\Engine_classes.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\Engine_parameters.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\Engine_structs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\BP_AGPlayerController_classes.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\BP_AGPlayerController_parameters.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\BP_AGPlayerController_structs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\AimGods_classes.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\AimGods_parameters.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\AimGods_structs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybinds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\BP_AGCharacter_classes.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\BP_AGCharacter_parameters.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UFT\SDK\BP_AGCharacter_structs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detours.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detver.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UFT\SDK\BasicHelper.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="UFT\SDK\CoreUObject_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="UFT\SDK\Engine_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="UFT\SDK\BP_AGPlayerController_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="UFT\SDK\AimGods_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="AG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keybinds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UFT\SDK\BP_AGCharacter_functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\detours.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disasm.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\image.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\modules.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
